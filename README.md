@@ -37,9 +37,6 @@ My work focused on deploying and configuring the existing application:
 - Configured the MySQL service.
 - Worked with Linux and AWS EC2 during deployment and troubleshooting.
 
-## Screenshots
-
-Screenshots of the deployed application and deployment setup will be added here.
 
 ## Original Application
 
@@ -66,4 +63,14 @@ flowchart TD
         end
     end
 ```
+## Deployment Documentation
 
+For details about the deployment process, see:
+
+- [Deployment Guide](docs/deployment-guide.md)
+- [Django Dockerfile](docs/configuration/Dockerfile)
+- [Nginx Dockerfile](docs/configuration/nginx/Dockerfile)
+- [Nginx Configuration](docs/configuration/nginx/default.conf)
+- [Docker Compose Configuration](docs/docker-compose.yml)
+
+**Note:** These are deployment configuration references. The original Django application source and build dependencies are maintained in the original author's repository.
